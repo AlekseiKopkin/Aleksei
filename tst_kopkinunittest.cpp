@@ -42,7 +42,7 @@ void KopkinUnitTest::TablTestSum_data()
     QTest::addColumn<int>("second");
     QTest::addColumn<int>("expected");
 
-    QTest::newRow("Test data 1") << 0 << 0 << -1;
+    QTest::newRow("Test data 1") << 0 << 0 << 0;
     QTest::newRow("Test data 2") << 5 << 10 << 15;
     QTest::newRow("Test data 3") << 10 << 10 << 20;
     QTest::newRow("Test data 4") << -5 << -10 << -15;
