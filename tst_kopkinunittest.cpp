@@ -48,7 +48,7 @@ void KopkinUnitTest::TablTestSum_data()
     QTest::newRow("Test data 4") << -5 << -10 << -15;
     QTest::newRow("Test data 5") << -10 << 5 << -5;
     QTest::newRow("Test data 6") << -25 << -10 << -35;
-    QTest::newRow("Test data 7") << 25 << 5 << 35;
+    QTest::newRow("Test data 7") << 25 << 5 << 30;
 }
 
 void KopkinUnitTest::TablTestSum()
